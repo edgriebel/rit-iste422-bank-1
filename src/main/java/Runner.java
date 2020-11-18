@@ -23,6 +23,10 @@ public class Runner {
         System.out.println("Accounts:");
         System.out.println(savings);
         System.out.println(checking);
+        
+        System.out.println("Our checking balance is " + checking.getBalance());
+        System.out.println("Our savings balance is " + savings.getBalance());
+        
 
         try {
             savings.deposit(100);
